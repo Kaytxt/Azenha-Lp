@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo-azenha.png">
+    <link rel="apple-touch-icon" href="logo-azenha.png">
+    
+    <!-- SEO Meta Tags -->
+    <title>BPO Financeiro Ribeirão Preto | Azenha Consultoria - Terceirização Financeira</title>
+    <meta name="description" content="BPO Financeiro em Ribeirão Preto ✓ Terceirização do departamento financeiro ✓ Gestão de Contas a Pagar e Receber ✓ Fluxo de Caixa ✓ Emissão de NF ✓ Azenha Consultoria">
+    <meta name="keywords" content="BPO Financeiro Ribeirão Preto, BPO Ribeirão Preto, terceirização financeira, gestão financeira terceirizada, consultoria financeira Ribeirão Preto">
+    <meta name="author" content="Azenha Consultoria">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://grupoazenha.com.br/bpo-financeiro/">
+    <meta property="og:title" content="BPO Financeiro Ribeirão Preto | Azenha Consultoria">
+    <meta property="og:description" content="Terceirize seu departamento financeiro com especialistas em Ribeirão Preto. Conte com a Azenha Consultoria.">
+    <meta property="og:image" content="https://grupoazenha.com.br/wp-content/uploads/2023/10/Logo-novo-peq.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://grupoazenha.com.br/bpo-financeiro/">
+    <meta property="twitter:title" content="BPO Financeiro Ribeirão Preto | Azenha Consultoria">
+    <meta property="twitter:description" content="Terceirize seu departamento financeiro com especialistas em Ribeirão Preto.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://grupoazenha.com.br/bpo-financeiro/">
+    
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Azenha Consultoria",
+      "image": "https://grupoazenha.com.br/wp-content/uploads/2023/10/Logo-novo-peq.png",
+      "description": "BPO Financeiro e Consultoria Financeira em Ribeirão Preto",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Izaura Junqueira, 56",
+        "addressLocality": "Ribeirão Preto",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-21.1704",
+        "longitude": "-47.8103"
+      },
+      "telephone": "+55-16-99792-4544",
+      "priceRange": "$$",
+      "url": "https://grupoazenha.com.br",
+      "areaServed": "Ribeirão Preto",
+      "serviceType": ["BPO Financeiro", "Consultoria Financeira", "Planejamento Tributário"]
+    }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Unbounded:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#fefce8',
+                            100: '#fef9c3',
+                            400: '#facc15',
+                            500: '#D4AF37',
+                            600: '#C5A028',
+                            700: '#B8941D',
+                            800: '#9A7A15',
+                            900: '#7A6010',
+                        },
+                        navy: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            700: '#1e3a8a',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                            950: '#020617',
+                        }
+                    },
+                    fontFamily: {
+                        display: ['Unbounded', 'system-ui', 'sans-serif'],
+                        sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+        
+        html, body {
+            overflow-x: hidden;
+            inline-size: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #020617 0%, #0f172a 50%, #1e293b 100%);
+            min-block-size: 100vh;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #D4AF37 0%, #facc15 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .gradient-border {
+            position: relative;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(250, 204, 21, 0.1));
+            border: 2px solid transparent;
+            background-clip: padding-box;
+        }
+        
+        .gradient-border::before {
+            content: '';
+            position: absolute;
+            inset: -2px;
+            padding: 2px;
+            background: linear-gradient(135deg, #D4AF37, #facc15);
+            border-radius: inherit;
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+        
+        .blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.3;
+            animation: blob 7s infinite;
+        }
+        
+        @keyframes blob {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -50px) scale(1.1); }
+            66% { transform: translate(-20px, 20px) scale(0.9); }
+        }
+        
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px) scale(1.02);
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.8s ease-in forwards;
+            opacity: 0;
+        }
+        
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .slide-up {
+            animation: slideUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        
+        @keyframes slideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .stagger-1 { animation-delay: 0.1s; }
+        .stagger-2 { animation-delay: 0.2s; }
+        .stagger-3 { animation-delay: 0.3s; }
+        .stagger-4 { animation-delay: 0.4s; }
+        .stagger-5 { animation-delay: 0.5s; }
+        .stagger-6 { animation-delay: 0.6s; }
+        
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .pulse-glow {
+            animation: pulseGlow 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulseGlow {
+            0%, 100% {
+                box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+            }
+            50% {
+                box-shadow: 0 0 40px rgba(212, 175, 55, 0.8);
+            }
+        }
+        
+        .nav-blur {
+            backdrop-filter: blur(12px);
+            background: rgba(15, 23, 42, 0.8);
+        }
+        
+        .whatsapp-float {
+            position: fixed;
+            inline-size: 56px;
+            block-size: 56px;
+            inset-block-end: 20px;
+            inset-inline-end: 20px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            animation: pulse 2s infinite;
+        }
+        
+        @media (min-inline-size: 768px) {
+            .whatsapp-float {
+                inline-size: 60px;
+                block-size: 60px;
+                inset-block-end: 40px;
+                inset-inline-end: 40px;
+            }
+        }
+        
+        /* Mobile optimizations */
+        @media (max-inline-size: 640px) {
+            .blob {
+                filter: blur(60px);
+                opacity: 0.2;
+            }
+            
+            h1, h2, h3 {
+                word-wrap: break-word;
+            }
+            
+            .nav-blur {
+                backdrop-filter: blur(8px);
+            }
+            
+            /* iPhone specific fixes */
+            .max-w-7xl, .max-w-5xl, .max-w-4xl, .max-w-2xl {
+                padding-inline-start: 1rem;
+                padding-inline-end: 1rem;
+            }
+        }
+        
+        /* iPhone 14 Pro Max and similar */
+        @media (max-inline-size: 430px) {
+            section {
+                padding-inline-start: 0.75rem;
+                padding-inline-end: 0.75rem;
+            }
+        }
+        
+        /* Logo animations */
+        .logo-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .logo-hover:hover {
+            transform: scale(1.08);
+            filter: brightness(1.15) drop-shadow(0 0 15px rgba(212, 175, 55, 0.4));
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 30px rgba(37, 211, 102, 0.8);
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+            }
+            50% {
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+            }
+        }
+        
+        .accordion-content {
+            max-block-size: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            opacity: 0;
+        }
+        
+        .accordion-content.active {
+            max-block-size: 500px;
+            opacity: 1;
+            padding-block-start: 0;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-100 antialiased">
+
+    <!-- Background Blobs -->
+    <div class="blob" style="inline-size: 400px; block-size: 400px; background: #D4AF37; inset-block-start: 10%; inset-inline-start: 5%;"></div>
+    <div class="blob" style="inline-size: 500px; block-size: 500px; background: #1e3a8a; inset-block-end: 10%; inset-inline-end: 10%; animation-delay: -2s;"></div>
+    <div class="blob" style="inline-size: 300px; block-size: 300px; background: #C5A028; inset-block-start: 50%; inset-inline-start: 50%; animation-delay: -4s;"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 nav-blur border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="https://grupoazenha.com.br" class="flex items-center space-x-3 logo-hover">
+                    <img src="logo-azenha.png" alt="Azenha Consultoria - BPO Financeiro Ribeirão Preto" class="h-14 md:h-20 w-auto">
+                </a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#servicos" class="hover:text-primary-500 transition-colors">Serviços</a>
+                    <a href="#beneficios" class="hover:text-primary-500 transition-colors">Benefícios</a>
+                    <a href="#depoimentos" class="hover:text-primary-500 transition-colors">Depoimentos</a>
+                    <a href="#faq" class="hover:text-primary-500 transition-colors">FAQ</a>
+                    <a href="#contato" class="hover:text-primary-500 transition-colors">Contato</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+                
+                <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." 
+                   class="hidden md:inline-flex bg-primary-600 hover:bg-primary-700 px-6 py-2 rounded-full font-semibold transition-all hover:scale-105 pulse-glow">
+                    Contato
+                </a>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden mt-4 pb-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#servicos" onclick="toggleMobileMenu()" class="hover:text-primary-500 transition-colors">Serviços</a>
+                    <a href="#beneficios" onclick="toggleMobileMenu()" class="hover:text-primary-500 transition-colors">Benefícios</a>
+                    <a href="#depoimentos" onclick="toggleMobileMenu()" class="hover:text-primary-500 transition-colors">Depoimentos</a>
+                    <a href="#faq" onclick="toggleMobileMenu()" class="hover:text-primary-500 transition-colors">FAQ</a>
+                    <a href="#contato" onclick="toggleMobileMenu()" class="hover:text-primary-500 transition-colors">Contato</a>
+                    <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." 
+                       class="inline-flex items-center justify-center bg-primary-600 hover:bg-primary-700 px-6 py-2 rounded-full font-semibold transition-all">
+                        Contato WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-24 md:pt-32 pb-12 md:pb-20 px-4 md:px-6 overflow-hidden">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
+                <div class="space-y-6 md:space-y-8 w-full">
+                    <h1 class="font-display font-black text-4xl sm:text-5xl lg:text-7xl leading-tight fade-in stagger-1 text-center lg:text-left">
+                        <span class="gradient-text">BPO Financeiro</span>
+                    </h1>
+                    
+                    <p class="text-xl md:text-2xl font-semibold text-white fade-in stagger-2 text-center lg:text-left">
+                        Terceirização do seu financeiro.
+                    </p>
+                    
+                    <div class="fade-in stagger-3">
+                        <h2 class="text-2xl md:text-3xl font-bold mb-3 md:mb-4 text-center lg:text-left">Não sabe por onde começar a organizar o financeiro da sua empresa?</h2>
+                        <h3 class="text-lg md:text-xl text-gray-300 text-center lg:text-left">Conte com especialistas em finanças para alavancar seus resultados.</h3>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row gap-3 md:gap-4 fade-in stagger-4 w-full justify-center lg:justify-start">
+                        <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." 
+                           class="group inline-flex items-center justify-center px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-primary-600 to-primary-500 rounded-full font-bold text-base md:text-lg hover:scale-105 transition-all shadow-lg shadow-primary-500/50 w-full sm:w-auto">
+                            Saiba mais
+                            <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="relative floating mt-8 lg:mt-0 w-full">
+                    <div class="relative z-10 gradient-border rounded-3xl p-6 md:p-8 backdrop-blur-sm mx-auto max-w-md lg:max-w-none">
+                        <div class="space-y-4 md:space-y-6">
+                            <div class="flex items-center justify-between p-3 md:p-4 bg-white/5 rounded-xl">
+                                <div class="flex items-center space-x-2 md:space-x-3">
+                                    <div class="w-10 h-10 md:w-12 md:h-12 bg-primary-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-5 h-5 md:w-6 md:h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-sm md:text-base">Gestão Financeira</p>
+                                        <p class="text-xs md:text-sm text-gray-400">Completa e Profissional</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center justify-between p-3 md:p-4 bg-white/5 rounded-xl">
+                                <div class="flex items-center space-x-2 md:space-x-3">
+                                    <div class="w-10 h-10 md:w-12 md:h-12 bg-navy-700/30 rounded-xl flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-5 h-5 md:w-6 md:h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-sm md:text-base">Foco no Negócio</p>
+                                        <p class="text-xs md:text-sm text-gray-400">100% Operação</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center justify-between p-3 md:p-4 bg-white/5 rounded-xl">
+                                <div class="flex items-center space-x-2 md:space-x-3">
+                                    <div class="w-10 h-10 md:w-12 md:h-12 bg-primary-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-5 h-5 md:w-6 md:h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-sm md:text-base">Redução de Custos</p>
+                                        <p class="text-xs md:text-sm text-gray-400">Sem Turnover</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Description Section -->
+    <section class="py-12 md:py-20 px-4 md:px-6">
+        <div class="max-w-5xl mx-auto w-full">
+            <div class="text-center mb-8 md:mb-12">
+                <h2 class="font-display font-black text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-6">
+                    <span class="gradient-text">BPO FINANCEIRO</span>
+                </h2>
+            </div>
+            
+            <div class="gradient-border rounded-3xl p-6 md:p-10 bg-slate-900/50 backdrop-blur-sm space-y-4 md:space-y-6 text-base md:text-lg text-gray-300 w-full">
+                <p>
+                    Consiste na terceirização das rotinas do departamento financeiro. Efetuamos toda a gestão do contas a pagar e receber, gestão do fluxo de caixa e até mesmo a emissão de notas fiscais.
+                </p>
+                
+                <p>
+                    Com isso, você empresário ganha tempo para focar 100% em sua operação, sem turnover de funcionários, custos trabalhistas elevados e treinamentos.
+                </p>
+                
+                <p class="font-semibold text-white">
+                    Mais tempo para sua gestão e mais eficiência para seu negócio.
+                </p>
+                
+                <p>
+                    Tenha a tranquilidade de uma empresa de <a href="https://grupoazenha.com.br/consultoria/" class="text-primary-500 hover:text-primary-400 underline">consultoria financeira</a> cuidando de seu negócio.
+                </p>
+                
+                <div class="mt-8 pt-8 border-t border-white/10 text-center">
+                    <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1,%20estou%20no%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20BPO%20Financeiro."
+                       class="inline-flex items-center justify-center px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-primary-600 to-primary-500 rounded-full font-bold text-base md:text-lg hover:scale-105 transition-all shadow-lg shadow-primary-500/50 w-full sm:w-auto">
+                        Fale com o nosso time agora mesmo
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Quote -->
+            <div class="mt-12 text-center">
+                <blockquote class="text-2xl italic text-gray-300 border-l-4 border-primary-500 pl-6 py-4 bg-white/5 rounded-r-xl">
+                    Faça o que você faz melhor e <strong class="text-primary-400">terceirize</strong> o resto.
+                    <footer class="text-base mt-2 text-gray-400">- Peter Drucker</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="py-12 md:py-24 px-4 md:px-6">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="font-display font-black text-3xl md:text-4xl lg:text-6xl mb-3 md:mb-4 leading-tight">
+                    BPO Financeiro pode ser a <span class="gradient-text">Solução</span> para a sua empresa
+                </h2>
+                <p class="text-lg md:text-xl text-gray-400">
+                    Saiba porque agora:
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                <!-- Service Card 1 -->
+                <div class="card-hover gradient-border rounded-2xl p-6 md:p-8 bg-slate-900/50 backdrop-blur-sm">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl flex items-center justify-center mb-4 md:mb-6">
+                        <svg class="w-6 h-6 md:w-8 md:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl md:text-2xl mb-3 md:mb-4">Gestão contas a pagar e receber</h3>
+                    <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." 
+                       class="inline-flex items-center text-primary-400 hover:text-primary-300 font-semibold mt-4">
+                        Mais informações
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="card-hover gradient-border rounded-2xl p-6 md:p-8 bg-slate-900/50 backdrop-blur-sm">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-navy-700 to-navy-800 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl md:text-2xl mb-3 md:mb-4">Gestão Fluxo de Caixa</h3>
+                    <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." 
+                       class="inline-flex items-center text-primary-400 hover:text-primary-300 font-semibold mt-4">
+                        Mais informações
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="card-hover gradient-border rounded-2xl p-6 md:p-8 bg-slate-900/50 backdrop-blur-sm">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 md:w-8 md:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl md:text-2xl mb-3 md:mb-4">Emissão de Nota Fiscal</h3>
+                    <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." 
+                       class="inline-flex items-center text-primary-400 hover:text-primary-300 font-semibold mt-4">
+                        Mais informações
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="card-hover gradient-border rounded-2xl p-6 md:p-8 bg-slate-900/50 backdrop-blur-sm">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-navy-700 to-navy-800 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl md:text-2xl mb-3 md:mb-4">Emissão de Boletos Bancários</h3>
+                    <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." 
+                       class="inline-flex items-center text-primary-400 hover:text-primary-300 font-semibold mt-4">
+                        Mais informações
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="card-hover gradient-border rounded-2xl p-6 md:p-8 bg-slate-900/50 backdrop-blur-sm">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 md:w-8 md:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl md:text-2xl mb-3 md:mb-4">Dashboard Financeiro</h3>
+                    <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." 
+                       class="inline-flex items-center text-primary-400 hover:text-primary-300 font-semibold mt-4">
+                        Mais informações
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="card-hover gradient-border rounded-2xl p-6 md:p-8 bg-slate-900/50 backdrop-blur-sm">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-navy-700 to-navy-800 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl md:text-2xl mb-3 md:mb-4">Suporte diário via atendimento digital</h3>
+                    <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." 
+                       class="inline-flex items-center text-primary-400 hover:text-primary-300 font-semibold mt-4">
+                        Mais informações
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="py-20 px-6 bg-gradient-to-b from-transparent to-slate-900/30">
+        <div class="max-w-5xl mx-auto w-full">
+            <div class="text-center mb-12">
+                <h2 class="font-display font-black text-4xl lg:text-5xl mb-6">
+                    BPO Financeiro pode ser a <span class="gradient-text">Solução</span> para a sua Empresa
+                </h2>
+                <p class="text-xl text-gray-400">Saiba porque agora:</p>
+            </div>
+            
+            <div class="gradient-border rounded-3xl p-10 bg-slate-900/50 backdrop-blur-sm space-y-6 text-lg text-gray-300">
+                <p>
+                    Descubra como o BPO Financeiro pode ajudar a sua empresa lucrar mais e se destacar no mercado competitivo hoje.
+                </p>
+                
+                <p>
+                    Com o auxílio de uma empresa especializada em BPO Financeiro, sua empresa pode alcançar uma notável redução nos custos operacionais, aprimorar a eficácia dos procedimentos financeiros, elevar a transparência das informações contábeis e financeiras, e ainda contar com o respaldo de profissionais experientes e atualizados acerca das práticas mais eficazes do mercado.
+                </p>
+                
+                <p>
+                    Em síntese, o BPO Financeiro representa uma solução abrangente e eficaz para as empresas que almejam otimizar sua gestão financeira, cortar despesas, elevar a eficiência operacional e expandir sua presença em novos mercados.
+                </p>
+                
+                <div class="mt-8 pt-8 border-t border-white/10 text-center">
+                    <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1,%20estou%20no%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20BPO%20Financeiro."
+                       class="inline-flex items-center justify-center px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-primary-600 to-primary-500 rounded-full font-bold text-base md:text-lg hover:scale-105 transition-all shadow-lg shadow-primary-500/50 w-full sm:w-auto">
+                        Fale com o nosso time agora mesmo
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why BPO Section -->
+    <section class="py-20 px-6">
+        <div class="max-w-5xl mx-auto w-full">
+            <div class="text-center mb-12">
+                <h2 class="font-display font-black text-4xl lg:text-5xl mb-6">
+                    Porque contar com um serviço de <span class="gradient-text">BPO Financeiro?</span>
+                </h2>
+            </div>
+            
+            <div class="gradient-border rounded-3xl p-10 bg-slate-900/50 backdrop-blur-sm space-y-6 text-lg text-gray-300">
+                <p>
+                    Um BPO Financeiro desempenha a função principal de retirar as operações financeiras, contábeis e administrativas do núcleo do negócio, criando um ambiente especializado, seguro, com custos reduzidos e alto valor percebido. Ao optar pela terceirização e selecionar uma contratação de qualidade, o empreendedor ganha tempo para se concentrar integralmente no negócio, adicionando um parceiro especializado à operação.
+                </p>
+                
+                <p>
+                    Nesse momento, muitos empreendedores percebem que optar pelo BPO Financeiro é uma escolha vantajosa, observando os resultados positivos alcançados por outros que tomaram essa decisão.
+                </p>
+                
+                <p>
+                    Assim, o BPO Financeiro apresenta-se como uma solução altamente benéfica para micro e pequenas empresas, profissionais liberais e autônomos, tanto no início de suas atividades quanto ao longo do tempo. Ele se torna um aliado essencial para o crescimento do negócio, proporcionando uma gestão financeira e empresarial qualificada. Quando integrado à contabilidade, o serviço de BPO Financeiro pode ser ainda mais eficaz, maximizando todos os benefícios que esse processo pode oferecer.
+                </p>
+                
+                <div class="mt-8 pt-8 border-t border-white/10 text-center">
+                    <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1,%20estou%20no%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20BPO%20Financeiro."
+                       class="inline-flex items-center justify-center px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-primary-600 to-primary-500 rounded-full font-bold text-base md:text-lg hover:scale-105 transition-all shadow-lg shadow-primary-500/50 w-full sm:w-auto">
+                        Fale com o nosso time agora mesmo
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="py-12 md:py-24 px-4 md:px-6 bg-gradient-to-b from-transparent to-slate-900/30">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="font-display font-black text-3xl md:text-4xl lg:text-6xl mb-3 md:mb-4 leading-tight">
+                    Benefícios após <span class="gradient-text">IMPLANTAR</span> o BPO Financeiro
+                </h2>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+                <div class="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary-500/50 transition-all">
+                    <div class="w-12 h-12 bg-primary-500/20 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl mb-2">Foco no seu core business</h3>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary-500/50 transition-all">
+                    <div class="w-12 h-12 bg-navy-700/30 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl mb-2">Informações rápidas</h3>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary-500/50 transition-all">
+                    <div class="w-12 h-12 bg-primary-500/20 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl mb-2">Aumento de eficiência e produtividade</h3>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary-500/50 transition-all">
+                    <div class="w-12 h-12 bg-navy-700/30 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl mb-2">Redução de gastos</h3>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary-500/50 transition-all">
+                    <div class="w-12 h-12 bg-primary-500/20 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl mb-2">Clareza e previsibilidade</h3>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary-500/50 transition-all">
+                    <div class="w-12 h-12 bg-navy-700/30 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl mb-2">Segurança financeira</h3>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary-500/50 transition-all">
+                    <div class="w-12 h-12 bg-primary-500/20 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl mb-2">Especialistas à sua disposição</h3>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary-500/50 transition-all">
+                    <div class="w-12 h-12 bg-navy-700/30 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-display font-bold text-xl mb-2">Gestão de documentos</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-12 md:py-20 px-4 md:px-6">
+        <div class="max-w-5xl mx-auto w-full">
+            <div class="gradient-border rounded-3xl p-8 md:p-12 text-center bg-gradient-to-br from-slate-900/80 to-slate-800/80 backdrop-blur-sm">
+                <h2 class="font-display font-black text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-6">
+                    <span class="gradient-text">Consultoria grátis</span>
+                </h2>
+                <p class="text-lg md:text-xl text-gray-300 mb-6 md:mb-8 max-w-2xl mx-auto">
+                    Quer receber uma consultoria <strong>GRÁTIS de 30minutos?</strong>
+                </p>
+                <p class="text-base md:text-lg text-gray-400 mb-6 md:mb-8">
+                    É só preencher o formulário, que nossa equipe irá entrar em contato. Esse bônus é exclusivo e por tempo limitado.
+                </p>
+                <p class="text-base md:text-lg text-gray-300 mb-6 md:mb-8">
+                    Seja bem vindo a Azenha Consultoria.
+                </p>
+                <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1%20quero%20minha%20consultoria%20gr%C3%A1tis%20de%2030min" 
+                   class="inline-flex items-center px-8 md:px-10 py-4 md:py-5 bg-gradient-to-r from-primary-600 to-primary-500 rounded-full font-bold text-lg md:text-xl hover:scale-105 transition-all shadow-2xl shadow-primary-500/50 w-full sm:w-auto justify-center">
+                    Fale com o nosso time agora
+                    <svg class="w-6 h-6 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="depoimentos" class="py-12 md:py-24 px-4 md:px-6">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="font-display font-black text-3xl md:text-4xl lg:text-6xl mb-3 md:mb-4 leading-tight">
+                    O que dizem os nossos <span class="gradient-text">clientes</span>
+                </h2>
+                <p class="text-lg md:text-xl text-gray-400">
+                    Veja o que empresários falam sobre nossos serviços
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                <!-- Testimonial 1 -->
+                <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm hover:transform hover:scale-105 transition-all">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-primary-500">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4 italic">
+                        "Victor Azenha e Camila Azenha fazem um excelente trabalho! Nossa empresa dobrou de tamanho porque após a contratação da Azenha consultoria a gestão financeira ficou mais fácil, mais clara e passei a gastar menos tempo envolvido com o financeiro."
+                    </p>
+                    <div class="border-t border-white/10 pt-4">
+                        <p class="font-bold text-primary-400">Luiz H Peixoto</p>
+                        <p class="text-sm text-gray-500">Empresa de Topografia</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm hover:transform hover:scale-105 transition-all">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-primary-500">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4 italic">
+                        "Empresa que apresenta muita seriedade, competência e ética. Na empresa em que trabalho foi desempenhado um excelente trabalho na parte contábil, operacional e financeiro, trazendo resultados incríveis."
+                    </p>
+                    <div class="border-t border-white/10 pt-4">
+                        <p class="font-bold text-primary-400">Alcione Castro</p>
+                        <p class="text-sm text-gray-500">Gestor Empresarial</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm hover:transform hover:scale-105 transition-all">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-primary-500">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4 italic">
+                        "Conheci a empresa Azenha consultoria através de um cliente meu. A consultoria começou a negociar as dívidas, e as coisas começaram a clarear, começamos a respirar novamente. Graças a Deus e a consultoria."
+                    </p>
+                    <div class="border-t border-white/10 pt-4">
+                        <p class="font-bold text-primary-400">João Eduardo Queiroz</p>
+                        <p class="text-sm text-gray-500">Queiroz e Gonçalves</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm hover:transform hover:scale-105 transition-all">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-primary-500">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4 italic">
+                        "Consultoria excelente, sempre nos ajudou em todos os aspectos, financeiro da empresa a cada dia que passa mais consolidado e organizado. Agradeço muito o empenho e dedicação da Consultoria Azenha."
+                    </p>
+                    <div class="border-t border-white/10 pt-4">
+                        <p class="font-bold text-primary-400">Cinthia Valentim</p>
+                        <p class="text-sm text-gray-500">Empresária</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm hover:transform hover:scale-105 transition-all">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-primary-500">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4 italic">
+                        "Excelente consultoria, indico muito trabalho extremamente sério!"
+                    </p>
+                    <div class="border-t border-white/10 pt-4">
+                        <p class="font-bold text-primary-400">Thiago PZS</p>
+                        <p class="text-sm text-gray-500">Empresário</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 6 -->
+                <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm hover:transform hover:scale-105 transition-all">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-primary-500">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4 italic">
+                        "Estou muito satisfeito com os serviços prestados pela consultoria. Indico muito a todos."
+                    </p>
+                    <div class="border-t border-white/10 pt-4">
+                        <p class="font-bold text-primary-400">Lucas Arcaro</p>
+                        <p class="text-sm text-gray-500">Empresário</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-12 md:py-24 px-4 md:px-6">
+        <div class="max-w-4xl mx-auto w-full">
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="font-display font-black text-3xl md:text-4xl lg:text-6xl mb-3 md:mb-4">
+                    <span class="gradient-text">FAQ</span>
+                </h2>
+                <p class="text-base md:text-xl text-gray-400">
+                    Sempre recebemos essas perguntas. Então direcionamos abaixo perguntas específicas sobre.
+                </p>
+            </div>
+            
+            <div class="space-y-4">
+                <div class="gradient-border rounded-2xl bg-slate-900/50 backdrop-blur-sm overflow-hidden">
+                    <button onclick="toggleAccordion(this)" class="w-full p-4 md:p-6 text-left flex items-center justify-between hover:bg-white/5 transition-colors">
+                        <span class="font-display font-bold text-base md:text-lg">Como o BPO Financeiro pode beneficiar minha empresa?</span>
+                        <svg class="w-6 h-6 text-primary-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-6">
+                        <p class="text-gray-400">O BPO Financeiro oferece uma série de benefícios, incluindo redução de custos, acesso a expertise financeira especializada, melhoria da eficiência financeira e conformidade regulatória. Além disso, ele permite que sua equipe se concentre em tarefas estratégicas, impulsionando o crescimento e a rentabilidade da empresa.</p>
+                    </div>
+                </div>
+
+                <div class="gradient-border rounded-2xl bg-slate-900/50 backdrop-blur-sm overflow-hidden">
+                    <button onclick="toggleAccordion(this)" class="w-full p-4 md:p-6 text-left flex items-center justify-between hover:bg-white/5 transition-colors">
+                        <span class="font-display font-bold text-base md:text-lg">Quais serviços comuns estão incluídos?</span>
+                        <svg class="w-6 h-6 text-primary-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-6">
+                        <p class="text-gray-400">Os serviços comuns oferecidos incluem gestão de contas a receber e a pagar, emissão de notas fiscais, fluxo de caixa, análise financeira da empresa. Os serviços são personalizados para atender às necessidades específicas de cada empresa e podem abranger uma ampla gama de tarefas financeiras.</p>
+                    </div>
+                </div>
+
+                <div class="gradient-border rounded-2xl bg-slate-900/50 backdrop-blur-sm overflow-hidden">
+                    <button onclick="toggleAccordion(this)" class="w-full p-4 md:p-6 text-left flex items-center justify-between hover:bg-white/5 transition-colors">
+                        <span class="font-display font-bold text-base md:text-lg">Vocês terão acesso total ao meu financeiro?</span>
+                        <svg class="w-6 h-6 text-primary-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-6">
+                        <p class="text-gray-400">Sim, porém com todo contrato de sigílo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="py-12 md:py-24 px-4 md:px-6 bg-gradient-to-b from-transparent to-slate-900/50">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="text-center mb-8 md:mb-12">
+                <h2 class="font-display font-black text-3xl md:text-4xl lg:text-5xl mb-3 md:mb-4 leading-tight">
+                    Para dúvidas ou orçamento, <span class="gradient-text">preencha o formulário abaixo!</span>
+                </h2>
+            </div>
+            
+            <div class="max-w-2xl mx-auto w-full">
+                <div class="gradient-border rounded-3xl p-6 md:p-8 bg-slate-900/50 backdrop-blur-sm">
+                    <form action="#" method="POST" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Nome Completo</label>
+                            <input type="text" required class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:border-primary-500 focus:outline-none transition-colors">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">E-mail</label>
+                            <input type="email" required class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:border-primary-500 focus:outline-none transition-colors">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Telefone</label>
+                            <input type="tel" required class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:border-primary-500 focus:outline-none transition-colors">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Empresa</label>
+                            <input type="text" class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:border-primary-500 focus:outline-none transition-colors">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Mensagem</label>
+                            <textarea rows="4" class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:border-primary-500 focus:outline-none transition-colors resize-none"></textarea>
+                        </div>
+                        <button type="submit" class="w-full px-8 py-4 bg-gradient-to-r from-primary-600 to-primary-500 rounded-xl font-bold hover:scale-[1.02] transition-all shadow-lg shadow-primary-500/30">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 md:py-12 px-4 md:px-6 border-t border-white/10">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="text-center mb-6 md:mb-8">
+                <div class="flex justify-center mb-4">
+                    <img src="logo-azenha.png" alt="Azenha Consultoria" class="h-20 md:h-28 w-auto opacity-90">
+                </div>
+                <h3 class="font-display font-black text-2xl md:text-3xl mb-3 md:mb-4">
+                    Alavanque seus resultados de forma <span class="gradient-text">Segura e Eficaz!</span>
+                </h3>
+                <p class="text-sm md:text-base text-gray-400">A Azenha é especializada em Consultoria Financeira, BPO Financeiro e Planejamento Tributário.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-6 md:mb-8">
+                <div>
+                    <h4 class="font-display font-bold mb-4">Menu</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="https://grupoazenha.com.br/" class="hover:text-primary-400 transition-colors">Início</a></li>
+                        <li><a href="https://grupoazenha.com.br/sobre/" class="hover:text-primary-400 transition-colors">Sobre</a></li>
+                        <li><a href="https://grupoazenha.com.br/bpo-financeiro/" class="hover:text-primary-400 transition-colors">Serviços</a></li>
+                        <li><a href="https://grupoazenha.com.br/contato/" class="hover:text-primary-400 transition-colors">Contato</a></li>
+                        <li><a href="https://grupoazenha.com.br/politica-de-privacidade/" class="hover:text-primary-400 transition-colors">Política de privacidade</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-display font-bold mb-4">Localização</h4>
+                    <p class="text-sm text-gray-400">
+                        <a href="https://www.google.com/search?q=rua+izaura+junqueira%2C+56" class="hover:text-primary-400 transition-colors">
+                            Rua Izaura Junqueira, 56<br>Ribeirão Preto - SP
+                        </a>
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-display font-bold mb-4">Entre em contato</h4>
+                    <p class="text-sm text-gray-400 mb-4">
+                        <a href="tel:+5516997924544" class="hover:text-primary-400 transition-colors">(16) 99792-4544</a>
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.instagram.com/azenhaconsultoria/" target="_blank" class="w-10 h-10 bg-white/5 hover:bg-primary-500/20 rounded-xl flex items-center justify-center transition-all hover:scale-110">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/azenhaconsultoria/" target="_blank" class="w-10 h-10 bg-white/5 hover:bg-primary-500/20 rounded-xl flex items-center justify-center transition-all hover:scale-110">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-8 border-t border-white/10 text-center text-sm text-gray-400">
+                <p>&copy; 2025 Azenha. Todos os direitos reservados. Site desenvolvido por Ahead Marketing.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://api.whatsapp.com/send?phone=5516997924544&text=Ol%C3%A1%20vim%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es" 
+       class="whatsapp-float" 
+       target="_blank"
+       aria-label="Fale conosco no WhatsApp">
+        <svg fill="currentColor" viewBox="0 0 24 24" width="30" height="30">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <script>
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('hidden');
+        }
+        
+        // Accordion functionality
+        function toggleAccordion(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('svg');
+            const isActive = content.classList.contains('active');
+            
+            // Close all accordions
+            document.querySelectorAll('.accordion-content').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            document.querySelectorAll('.accordion-content').forEach((item, index) => {
+                const btn = item.previousElementSibling;
+                btn.querySelector('svg').style.transform = 'rotate(0deg)';
+            });
+            
+            // Open clicked accordion if it wasn't active
+            if (!isActive) {
+                content.classList.add('active');
+                icon.style.transform = 'rotate(180deg)';
+            }
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#') {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }
+            });
+        });
+
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all slide-up elements
+        document.querySelectorAll('.slide-up').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
