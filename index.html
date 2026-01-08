@@ -9,10 +9,10 @@
     <link rel="apple-touch-icon" href="logo-azenha.png">
     
     <!-- SEO Meta Tags -->
-    <title>BPO Financeiro Ribeirão Preto | Azenha Consultoria - Terceirização Financeira</title>
-    <meta name="description" content="BPO Financeiro em Ribeirão Preto ✓ Terceirização do departamento financeiro ✓ Gestão de Contas a Pagar e Receber ✓ Fluxo de Caixa ✓ Emissão de NF ✓ Azenha Consultoria">
-    <meta name="keywords" content="BPO Financeiro Ribeirão Preto, BPO Ribeirão Preto, terceirização financeira, gestão financeira terceirizada, consultoria financeira Ribeirão Preto">
-    <meta name="author" content="Azenha Consultoria">
+    <title>BPO Financeiro Ribeirão Preto | Terceirização Financeira | Azenha Consultoria</title>
+    <meta name="description" content="BPO Financeiro em Ribeirão Preto ✓ Terceirização do departamento financeiro ✓ Gestão Contas a Pagar/Receber ✓ Fluxo de Caixa ✓ Compliance Financeiro ✓ CFO as a Service ✓ Conciliações Bancárias ✓ Azenha Consultoria - Atendimento em todo Brasil">
+    <meta name="keywords" content="BPO Financeiro Ribeirão Preto, BPO Ribeirão Preto, terceirização financeira, gestão financeira terceirizada, consultoria financeira Ribeirão Preto, outsourcing financeiro, BPO contabilidade, serviços financeiros terceirizados, CFO as a Service, Compliance Financeiro, gestão de contas a pagar e receber">
+    <meta name="author" content="Azenha Consultoria - Victor Azenha">
     <meta name="robots" content="index, follow">
     
     <!-- Open Graph / Facebook -->
@@ -36,14 +36,20 @@
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Azenha Consultoria",
+      "name": "Azenha Consultoria - BPO Financeiro Ribeirão Preto",
       "image": "https://grupoazenha.com.br/wp-content/uploads/2023/10/Logo-novo-peq.png",
-      "description": "BPO Financeiro e Consultoria Financeira em Ribeirão Preto",
+      "description": "BPO Financeiro, Compliance Financeiro e CFO as a Service em Ribeirão Preto. Terceirização completa do departamento financeiro com atendimento nacional.",
+      "@id": "https://grupoazenha.com.br/bpo-financeiro/",
+      "url": "https://grupoazenha.com.br/bpo-financeiro/",
+      "telephone": "+55-16-99792-4544",
+      "email": "victor@azenhaconsultoria.com.br",
+      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Rua Izaura Junqueira, 56",
         "addressLocality": "Ribeirão Preto",
         "addressRegion": "SP",
+        "postalCode": "14095-400",
         "addressCountry": "BR"
       },
       "geo": {
@@ -51,11 +57,66 @@
         "latitude": "-21.1704",
         "longitude": "-47.8103"
       },
-      "telephone": "+55-16-99792-4544",
-      "priceRange": "$$",
-      "url": "https://grupoazenha.com.br",
-      "areaServed": "Ribeirão Preto",
-      "serviceType": ["BPO Financeiro", "Consultoria Financeira", "Planejamento Tributário"]
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Ribeirão Preto"
+        },
+        {
+          "@type": "Country",
+          "name": "Brasil"
+        }
+      ],
+      "serviceType": [
+        "BPO Financeiro",
+        "Terceirização Financeira",
+        "Consultoria Financeira",
+        "CFO as a Service",
+        "Compliance Financeiro",
+        "Gestão de Contas a Pagar e Receber",
+        "Gestão de Fluxo de Caixa",
+        "Planejamento Tributário",
+        "Conciliações Bancárias",
+        "Emissão de Notas Fiscais"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Victor Azenha",
+        "jobTitle": "Economista e Especialista em Controladoria",
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "Universidade Estadual de Londrina - UEL"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "Universidade de São Paulo - USP"
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "6",
+        "bestRating": "5",
+        "worstRating": "5"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.instagram.com/azenhaconsultoria/",
+        "https://www.linkedin.com/company/azenhaconsultoria/"
+      ]
     }
     </script>
     
@@ -105,14 +166,14 @@
         
         html, body {
             overflow-x: hidden;
-            inline-size: 100%;
+            width: 100%;
             margin: 0;
             padding: 0;
         }
         
         body {
             background: linear-gradient(135deg, #020617 0%, #0f172a 50%, #1e293b 100%);
-            min-block-size: 100vh;
+            min-height: 100vh;
         }
         
         .gradient-text {
@@ -224,10 +285,10 @@
         
         .whatsapp-float {
             position: fixed;
-            inline-size: 56px;
-            block-size: 56px;
-            inset-block-end: 20px;
-            inset-inline-end: 20px;
+            width: 56px;
+            height: 56px;
+            bottom: 20px;
+            right: 20px;
             background-color: #25d366;
             color: #FFF;
             border-radius: 50px;
@@ -242,17 +303,17 @@
             animation: pulse 2s infinite;
         }
         
-        @media (min-inline-size: 768px) {
+        @media (min-width: 768px) {
             .whatsapp-float {
-                inline-size: 60px;
-                block-size: 60px;
-                inset-block-end: 40px;
-                inset-inline-end: 40px;
+                width: 60px;
+                height: 60px;
+                bottom: 40px;
+                right: 40px;
             }
         }
         
         /* Mobile optimizations */
-        @media (max-inline-size: 640px) {
+        @media (max-width: 640px) {
             .blob {
                 filter: blur(60px);
                 opacity: 0.2;
@@ -268,16 +329,16 @@
             
             /* iPhone specific fixes */
             .max-w-7xl, .max-w-5xl, .max-w-4xl, .max-w-2xl {
-                padding-inline-start: 1rem;
-                padding-inline-end: 1rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
             }
         }
         
         /* iPhone 14 Pro Max and similar */
-        @media (max-inline-size: 430px) {
+        @media (max-width: 430px) {
             section {
-                padding-inline-start: 0.75rem;
-                padding-inline-end: 0.75rem;
+                padding-left: 0.75rem;
+                padding-right: 0.75rem;
             }
         }
         
@@ -306,25 +367,25 @@
         }
         
         .accordion-content {
-            max-block-size: 0;
+            max-height: 0;
             overflow: hidden;
             transition: max-height 0.3s ease-out;
             opacity: 0;
         }
         
         .accordion-content.active {
-            max-block-size: 500px;
+            max-height: 500px;
             opacity: 1;
-            padding-block-start: 0;
+            padding-top: 0;
         }
     </style>
 </head>
 <body class="font-sans text-gray-100 antialiased">
 
     <!-- Background Blobs -->
-    <div class="blob" style="inline-size: 400px; block-size: 400px; background: #D4AF37; inset-block-start: 10%; inset-inline-start: 5%;"></div>
-    <div class="blob" style="inline-size: 500px; block-size: 500px; background: #1e3a8a; inset-block-end: 10%; inset-inline-end: 10%; animation-delay: -2s;"></div>
-    <div class="blob" style="inline-size: 300px; block-size: 300px; background: #C5A028; inset-block-start: 50%; inset-inline-start: 50%; animation-delay: -4s;"></div>
+    <div class="blob" style="width: 400px; height: 400px; background: #D4AF37; top: 10%; left: 5%;"></div>
+    <div class="blob" style="width: 500px; height: 500px; background: #1e3a8a; bottom: 10%; right: 10%; animation-delay: -2s;"></div>
+    <div class="blob" style="width: 300px; height: 300px; background: #C5A028; top: 50%; left: 50%; animation-delay: -4s;"></div>
 
     <!-- Navigation -->
     <nav class="fixed w-full z-50 nav-blur border-b border-white/10">
@@ -498,6 +559,90 @@
         </div>
     </section>
 
+    <!-- About Azenha Section -->
+    <section class="py-12 md:py-20 px-4 md:px-6 bg-gradient-to-b from-slate-900/30 to-transparent">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
+                <div class="space-y-6">
+                    <h2 class="font-display font-black text-3xl md:text-4xl lg:text-5xl mb-4">
+                        Conheça a <span class="gradient-text">Azenha</span> Consultoria
+                    </h2>
+                    
+                    <p class="text-lg text-gray-300">
+                        Somos uma empresa de <strong>consultoria em gestão empresarial especializada na área financeira</strong>, com foco em BPO Financeiro, Compliance Financeiro e CFO as a Service.
+                    </p>
+                    
+                    <p class="text-base text-gray-400">
+                        Ajudamos nossos clientes a <strong>otimizarem sua performance e alcançar o sucesso financeiro</strong> através de soluções estratégicas e personalizadas. Nossa equipe é multidisciplinar e composta por profissionais experientes e altamente qualificados.
+                    </p>
+                    
+                    <p class="text-base text-gray-400">
+                        Com <strong>atendimento em todo território nacional</strong>, transformamos dados em informações relevantes para ajudar nas tomadas de decisão, sempre com <strong>ZERO BUROCRACIA</strong>.
+                    </p>
+                    
+                    <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm mt-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center flex-shrink-0">
+                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-display font-bold text-xl mb-1">Victor Azenha</h3>
+                                <p class="text-sm text-gray-400">Economista - UEL / 2009</p>
+                                <p class="text-sm text-gray-400">Controladoria e Finanças - USP / 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="space-y-4">
+                    <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-primary-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-2">Experiência Comprovada</h4>
+                                <p class="text-sm text-gray-400">Anos de experiência em gestão financeira empresarial com resultados comprovados por clientes satisfeitos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-navy-700/30 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-2">Equipe Multidisciplinar</h4>
+                                <p class="text-sm text-gray-400">Profissionais especializados em diferentes áreas da gestão financeira trabalhando para o sucesso da sua empresa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-primary-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-2">Atendimento Nacional</h4>
+                                <p class="text-sm text-gray-400">Prestamos serviços de BPO Financeiro e consultoria para empresas em todo o Brasil com a mesma qualidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Services Section -->
     <section id="servicos" class="py-12 md:py-24 px-4 md:px-6">
         <div class="max-w-7xl mx-auto w-full">
@@ -652,6 +797,122 @@
         </div>
     </section>
 
+    <!-- How It Works Section -->
+    <section class="py-12 md:py-20 px-4 md:px-6">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="font-display font-black text-3xl md:text-4xl lg:text-5xl mb-4">
+                    Como funciona a <span class="gradient-text">Terceirização Financeira</span>?
+                </h2>
+                <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
+                    Processo simples e descomplicado para implementar o BPO Financeiro na sua empresa com <strong>ZERO BUROCRACIA</strong>
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+                <!-- Step 1 -->
+                <div class="relative">
+                    <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm text-center hover:transform hover:scale-105 transition-all">
+                        <div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-display font-black text-white">
+                            01
+                        </div>
+                        <h3 class="font-display font-bold text-xl mb-3">Diagnóstico Inicial</h3>
+                        <p class="text-sm text-gray-400">
+                            Analisamos sua operação financeira atual, processos existentes e necessidades específicas do seu negócio
+                        </p>
+                    </div>
+                    <div class="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2">
+                        <svg class="w-8 h-8 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="relative">
+                    <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm text-center hover:transform hover:scale-105 transition-all">
+                        <div class="w-16 h-16 bg-gradient-to-br from-navy-700 to-navy-800 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-display font-black text-primary-400">
+                            02
+                        </div>
+                        <h3 class="font-display font-bold text-xl mb-3">Proposta Personalizada</h3>
+                        <p class="text-sm text-gray-400">
+                            Elaboramos uma solução sob medida com escopo detalhado, prazos e investimento transparente
+                        </p>
+                    </div>
+                    <div class="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2">
+                        <svg class="w-8 h-8 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="relative">
+                    <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm text-center hover:transform hover:scale-105 transition-all">
+                        <div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-display font-black text-white">
+                            03
+                        </div>
+                        <h3 class="font-display font-bold text-xl mb-3">Implantação Rápida</h3>
+                        <p class="text-sm text-gray-400">
+                            Implementamos o BPO Financeiro em 2-4 semanas com transição suave e treinamento da equipe
+                        </p>
+                    </div>
+                    <div class="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2">
+                        <svg class="w-8 h-8 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <!-- Step 4 -->
+                <div class="gradient-border rounded-2xl p-6 bg-slate-900/50 backdrop-blur-sm text-center hover:transform hover:scale-105 transition-all">
+                    <div class="w-16 h-16 bg-gradient-to-br from-navy-700 to-navy-800 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-display font-black text-primary-400">
+                        04
+                    </div>
+                    <h3 class="font-display font-bold text-xl mb-3">Gestão Contínua</h3>
+                    <p class="text-sm text-gray-400">
+                        Acompanhamento diário, relatórios gerenciais e suporte integral para otimização constante
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Additional Benefits -->
+            <div class="mt-12 md:mt-16">
+                <div class="gradient-border rounded-3xl p-8 md:p-10 bg-slate-900/50 backdrop-blur-sm">
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="text-center">
+                            <div class="w-12 h-12 bg-primary-500/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                </svg>
+                            </div>
+                            <h4 class="font-bold text-lg mb-2">Implementação Ágil</h4>
+                            <p class="text-sm text-gray-400">Começamos em até 2 semanas sem interrupção das operações</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-12 h-12 bg-navy-700/30 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/>
+                                </svg>
+                            </div>
+                            <h4 class="font-bold text-lg mb-2">Suporte Dedicado</h4>
+                            <p class="text-sm text-gray-400">Atendimento diário via WhatsApp, e-mail e telefone</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-12 h-12 bg-primary-500/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.040A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                                </svg>
+                            </div>
+                            <h4 class="font-bold text-lg mb-2">Segurança Total</h4>
+                            <p class="text-sm text-gray-400">Contrato de confidencialidade e processos seguros</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Why BPO Section -->
     <section class="py-20 px-6">
         <div class="max-w-5xl mx-auto w-full">
@@ -682,6 +943,197 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                         </svg>
                     </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CFO as a Service Section -->
+    <section class="py-12 md:py-20 px-4 md:px-6">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
+                <div class="order-2 lg:order-1">
+                    <div class="gradient-border rounded-3xl p-8 bg-slate-900/50 backdrop-blur-sm">
+                        <div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl flex items-center justify-center mb-6 mx-auto lg:mx-0">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h4 class="font-display font-bold text-2xl mb-4 text-center lg:text-left">O que fazemos?</h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-start space-x-3">
+                                <svg class="w-6 h-6 text-primary-400 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-gray-300">Apoio estratégico na tomada de decisões</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="w-6 h-6 text-primary-400 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-gray-300">Confecção e acompanhamento do orçamento anual</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="w-6 h-6 text-primary-400 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-gray-300">Análise de viabilidade econômica em projetos</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="w-6 h-6 text-primary-400 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-gray-300">Projeção de cenários financeiros</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="order-1 lg:order-2 space-y-6">
+                    <h2 class="font-display font-black text-3xl md:text-4xl lg:text-5xl mb-4">
+                        <span class="gradient-text">CFO as a Service</span>
+                    </h2>
+                    
+                    <p class="text-lg text-gray-300">
+                        Nosso serviço de <strong>CFO as a Service</strong> leva para sua empresa a expertise de um <strong>diretor financeiro estratégico</strong> sem o alto custo de mantê-lo em tempo integral.
+                    </p>
+                    
+                    <p class="text-base text-gray-400">
+                        Atuamos lado a lado com o empresário para <strong>estruturar processos, projetar cenários e orientar decisões críticas</strong> com base em dados confiáveis e análises profundas.
+                    </p>
+                    
+                    <p class="text-base text-gray-400">
+                        Mais que números, entregamos <strong>visão estratégica de longo prazo</strong> para que sua empresa cresça com solidez, reduza riscos e aproveite todas as oportunidades do mercado.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-4 mt-6">
+                        <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                            <h5 class="font-bold text-primary-400 mb-2">Redução de Custos</h5>
+                            <p class="text-sm text-gray-400">Sem encargos trabalhistas</p>
+                        </div>
+                        <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                            <h5 class="font-bold text-primary-400 mb-2">Visão Estratégica</h5>
+                            <p class="text-sm text-gray-400">Decisões baseadas em dados</p>
+                        </div>
+                        <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                            <h5 class="font-bold text-primary-400 mb-2">Eficiência</h5>
+                            <p class="text-sm text-gray-400">Processos otimizados</p>
+                        </div>
+                        <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                            <h5 class="font-bold text-primary-400 mb-2">Mitigação de Riscos</h5>
+                            <p class="text-sm text-gray-400">Análise preditiva</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compliance Financeiro Section -->
+    <section class="py-12 md:py-20 px-4 md:px-6 bg-gradient-to-b from-transparent to-slate-900/30">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
+                <div class="space-y-6">
+                    <h2 class="font-display font-black text-3xl md:text-4xl lg:text-5xl mb-4">
+                        <span class="gradient-text">Compliance Financeiro</span>
+                    </h2>
+                    
+                    <p class="text-lg text-gray-300">
+                        <strong>Estruturação e controle financeiro completo</strong> para garantir segurança, conformidade e previsibilidade nos resultados da sua empresa.
+                    </p>
+                    
+                    <p class="text-base text-gray-400">
+                        Transformamos desafios financeiros em oportunidades de crescimento. Uma boa <strong>gestão financeira é PILAR</strong> para o crescimento e permite a tomada de decisões mais assertivas.
+                    </p>
+                    
+                    <p class="text-base text-gray-400">
+                        Nosso serviço de Compliance Financeiro <strong>otimiza o fluxo de caixa, reduz custos, maximiza o lucro</strong> e garante total conformidade fiscal e contábil.
+                    </p>
+                    
+                    <div class="space-y-3 mt-6">
+                        <div class="flex items-center space-x-3 bg-white/5 rounded-xl p-4">
+                            <svg class="w-8 h-8 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.040A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                            <span class="font-semibold">Reduzir riscos e inconsistências financeiras</span>
+                        </div>
+                        <div class="flex items-center space-x-3 bg-white/5 rounded-xl p-4">
+                            <svg class="w-8 h-8 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.040A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                            <span class="font-semibold">Garantir conformidade fiscal e contábil</span>
+                        </div>
+                        <div class="flex items-center space-x-3 bg-white/5 rounded-xl p-4">
+                            <svg class="w-8 h-8 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.040A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                            <span class="font-semibold">Aumentar eficiência e lucratividade</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="gradient-border rounded-3xl p-8 bg-slate-900/50 backdrop-blur-sm">
+                        <h4 class="font-display font-bold text-2xl mb-6 text-center">O que fazemos?</h4>
+                        <ul class="space-y-4">
+                            <li class="flex items-start space-x-3">
+                                <div class="w-10 h-10 bg-primary-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Conciliação diária de vendas e recebíveis</p>
+                                    <p class="text-sm text-gray-400">Cartões, convênios e apps</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <div class="w-10 h-10 bg-navy-700/30 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Conferência de caixa e sangrias</p>
+                                    <p class="text-sm text-gray-400">Controle total do fluxo</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <div class="w-10 h-10 bg-primary-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Controle de despesas e pagamentos</p>
+                                    <p class="text-sm text-gray-400">Gestão completa</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <div class="w-10 h-10 bg-navy-700/30 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Relatórios gerenciais</p>
+                                    <p class="text-sm text-gray-400">Análises detalhadas</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <div class="w-10 h-10 bg-primary-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Suporte em sistemas ERP</p>
+                                    <p class="text-sm text-gray-400">Implantação e parametrização</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -767,6 +1219,106 @@
                         </svg>
                     </div>
                     <h3 class="font-display font-bold text-xl mb-2">Gestão de documentos</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentials Section -->
+    <section class="py-12 md:py-20 px-4 md:px-6 bg-gradient-to-b from-slate-900/30 to-transparent">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="font-display font-black text-3xl md:text-4xl lg:text-5xl mb-4">
+                    Por que escolher a <span class="gradient-text">Azenha Consultoria</span>?
+                </h2>
+                <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
+                    Somos especialistas em <strong>BPO Financeiro e terceirização de departamento financeiro</strong> com metodologia comprovada
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-6 md:gap-8 mb-12">
+                <div class="gradient-border rounded-2xl p-8 bg-slate-900/50 backdrop-blur-sm">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-14 h-14 bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="font-display font-bold text-xl md:text-2xl mb-3">Transformamos Dados em Informações</h3>
+                            <p class="text-gray-400">
+                                Não apenas processamos rotinas financeiras. <strong>TRANSFORMAMOS dados em INFORMAÇÕES relevantes</strong> para ajudar nas tomadas de decisão estratégicas do seu negócio. Você terá acesso a dashboards e relatórios gerenciais que mostram a real situação financeira da empresa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gradient-border rounded-2xl p-8 bg-slate-900/50 backdrop-blur-sm">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-14 h-14 bg-gradient-to-br from-navy-700 to-navy-800 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <svg class="w-7 h-7 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="font-display font-bold text-xl md:text-2xl mb-3">ZERO BUROCRACIA</h3>
+                            <p class="text-gray-400">
+                                Nossa estrutura e metodologia é organizada para funcionar como se estivéssemos dentro do seu negócio. <strong>Sem complicação, sem burocracia</strong>. Comunicação rápida, processos ágeis e total transparência em todas as operações financeiras.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gradient-border rounded-2xl p-8 bg-slate-900/50 backdrop-blur-sm">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-14 h-14 bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="font-display font-bold text-xl md:text-2xl mb-3">Equipe Especializada e Multidisciplinar</h3>
+                            <p class="text-gray-400">
+                                Time composto por <strong>profissionais experientes e altamente qualificados</strong> em gestão financeira, controladoria e compliance. Liderados por Victor Azenha (Economista pela UEL e especialista em Controladoria e Finanças pela USP).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gradient-border rounded-2xl p-8 bg-slate-900/50 backdrop-blur-sm">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-14 h-14 bg-gradient-to-br from-navy-700 to-navy-800 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <svg class="w-7 h-7 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="font-display font-bold text-xl md:text-2xl mb-3">Atendimento Nacional</h3>
+                            <p class="text-gray-400">
+                                Embora sediados em <strong>Ribeirão Preto - SP</strong>, atendemos empresas em todo o Brasil. Nosso modelo de trabalho remoto permite que prestemos serviços de <strong>BPO Financeiro com a mesma qualidade</strong> para clientes de qualquer região do país.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stats Section -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                <div class="bg-white/5 rounded-xl p-6 text-center border border-white/10">
+                    <div class="text-3xl md:text-4xl font-display font-black text-primary-400 mb-2">100%</div>
+                    <p class="text-sm text-gray-400">Taxa de Satisfação</p>
+                </div>
+                <div class="bg-white/5 rounded-xl p-6 text-center border border-white/10">
+                    <div class="text-3xl md:text-4xl font-display font-black text-primary-400 mb-2">5.0</div>
+                    <p class="text-sm text-gray-400">Avaliação no Google</p>
+                </div>
+                <div class="bg-white/5 rounded-xl p-6 text-center border border-white/10">
+                    <div class="text-3xl md:text-4xl font-display font-black text-primary-400 mb-2">2-4</div>
+                    <p class="text-sm text-gray-400">Semanas Implantação</p>
+                </div>
+                <div class="bg-white/5 rounded-xl p-6 text-center border border-white/10">
+                    <div class="text-3xl md:text-4xl font-display font-black text-primary-400 mb-2">24/7</div>
+                    <p class="text-sm text-gray-400">Suporte Disponível</p>
                 </div>
             </div>
         </div>
@@ -1056,6 +1608,66 @@
                     </button>
                     <div class="accordion-content px-6 pb-6">
                         <p class="text-gray-400">Sim, porém com todo contrato de sigílo.</p>
+                    </div>
+                </div>
+
+                <div class="gradient-border rounded-2xl bg-slate-900/50 backdrop-blur-sm overflow-hidden">
+                    <button onclick="toggleAccordion(this)" class="w-full p-4 md:p-6 text-left flex items-center justify-between hover:bg-white/5 transition-colors">
+                        <span class="font-display font-bold text-base md:text-lg">Qual a diferença entre BPO Financeiro e Contabilidade?</span>
+                        <svg class="w-6 h-6 text-primary-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-6">
+                        <p class="text-gray-400">O BPO Financeiro cuida das rotinas operacionais do dia a dia financeiro da empresa (contas a pagar, receber, fluxo de caixa, conciliações), enquanto a contabilidade foca em registros contábeis, demonstrações financeiras e obrigações fiscais. São serviços complementares que, quando integrados, trazem resultados ainda melhores.</p>
+                    </div>
+                </div>
+
+                <div class="gradient-border rounded-2xl bg-slate-900/50 backdrop-blur-sm overflow-hidden">
+                    <button onclick="toggleAccordion(this)" class="w-full p-4 md:p-6 text-left flex items-center justify-between hover:bg-white/5 transition-colors">
+                        <span class="font-display font-bold text-base md:text-lg">Quanto custa um serviço de BPO Financeiro?</span>
+                        <svg class="w-6 h-6 text-primary-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-6">
+                        <p class="text-gray-400">O investimento varia de acordo com o tamanho da empresa, volume de transações e serviços contratados. Porém, geralmente representa uma economia significativa comparado aos custos de manter uma equipe interna (salários, encargos, treinamentos, software, infraestrutura). Entre em contato para uma proposta personalizada e gratuita.</p>
+                    </div>
+                </div>
+
+                <div class="gradient-border rounded-2xl bg-slate-900/50 backdrop-blur-sm overflow-hidden">
+                    <button onclick="toggleAccordion(this)" class="w-full p-4 md:p-6 text-left flex items-center justify-between hover:bg-white/5 transition-colors">
+                        <span class="font-display font-bold text-base md:text-lg">Quanto tempo leva para implantar o BPO Financeiro?</span>
+                        <svg class="w-6 h-6 text-primary-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-6">
+                        <p class="text-gray-400">O processo de implantação geralmente leva de 2 a 4 semanas, dependendo da complexidade da operação e da organização inicial dos dados. Trabalhamos com ZERO BUROCRACIA para tornar a transição o mais rápida e tranquila possível, sem interrupção nas suas operações.</p>
+                    </div>
+                </div>
+
+                <div class="gradient-border rounded-2xl bg-slate-900/50 backdrop-blur-sm overflow-hidden">
+                    <button onclick="toggleAccordion(this)" class="w-full p-4 md:p-6 text-left flex items-center justify-between hover:bg-white/5 transition-colors">
+                        <span class="font-display font-bold text-base md:text-lg">O BPO Financeiro funciona para empresas de qualquer tamanho?</span>
+                        <svg class="w-6 h-6 text-primary-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-6">
+                        <p class="text-gray-400">Sim! O BPO Financeiro é especialmente vantajoso para micro, pequenas e médias empresas que não têm estrutura para manter um departamento financeiro completo. Também atende profissionais liberais e autônomos. Nossos serviços são personalizados e escaláveis conforme sua empresa cresce.</p>
+                    </div>
+                </div>
+
+                <div class="gradient-border rounded-2xl bg-slate-900/50 backdrop-blur-sm overflow-hidden">
+                    <button onclick="toggleAccordion(this)" class="w-full p-4 md:p-6 text-left flex items-center justify-between hover:bg-white/5 transition-colors">
+                        <span class="font-display font-bold text-base md:text-lg">Como funciona o atendimento e suporte da Azenha?</span>
+                        <svg class="w-6 h-6 text-primary-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-6">
+                        <p class="text-gray-400">Oferecemos suporte diário via WhatsApp, e-mail e telefone. Nossa metodologia é estruturada para funcionar como se estivéssemos dentro da sua empresa, com comunicação rápida e eficiente. Você terá acesso a dashboards financeiros em tempo real e relatórios gerenciais periódicos para acompanhar todos os resultados.</p>
                     </div>
                 </div>
             </div>
